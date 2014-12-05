@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ThirdViewController.h
 //  TabbedExample
 //
 //  Created by Erick Bennett on 12/4/14.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface ThirdViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *myImageView;
 
 @end
-

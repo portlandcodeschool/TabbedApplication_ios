@@ -15,6 +15,10 @@
 		84F9FCF41A314BF80062FDEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F9FCF31A314BF80062FDEB /* Images.xcassets */; };
 		84F9FCF71A314BF80062FDEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9FCF51A314BF80062FDEB /* LaunchScreen.xib */; };
 		84F9FD031A314BF80062FDEB /* TabbedExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9FD021A314BF80062FDEB /* TabbedExampleTests.m */; };
+		84F9FD0E1A314D240062FDEB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9FD0D1A314D240062FDEB /* ThirdViewController.m */; };
+		84F9FD121A314F440062FDEB /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F9FD0F1A314F440062FDEB /* image1.jpg */; };
+		84F9FD131A314F440062FDEB /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F9FD101A314F440062FDEB /* image2.jpg */; };
+		84F9FD141A314F440062FDEB /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F9FD111A314F440062FDEB /* image3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,11 @@
 		84F9FCFC1A314BF80062FDEB /* TabbedExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbedExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F9FD011A314BF80062FDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F9FD021A314BF80062FDEB /* TabbedExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedExampleTests.m; sourceTree = "<group>"; };
+		84F9FD0C1A314D240062FDEB /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		84F9FD0D1A314D240062FDEB /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		84F9FD0F1A314F440062FDEB /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		84F9FD101A314F440062FDEB /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		84F9FD111A314F440062FDEB /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +93,10 @@
 		84F9FCE21A314BF80062FDEB /* TabbedExample */ = {
 			isa = PBXGroup;
 			children = (
+				84F9FD1C1A31A9220062FDEB /* Viewcontrollers */,
 				84F9FCE71A314BF80062FDEB /* AppDelegate.h */,
 				84F9FCE81A314BF80062FDEB /* AppDelegate.m */,
-				84F9FCEA1A314BF80062FDEB /* FirstViewController.h */,
-				84F9FCEB1A314BF80062FDEB /* FirstViewController.m */,
-				84F9FCED1A314BF80062FDEB /* SecondViewController.h */,
-				84F9FCEE1A314BF80062FDEB /* SecondViewController.m */,
+				84F9FD151A314F520062FDEB /* Images */,
 				84F9FCF01A314BF80062FDEB /* Main.storyboard */,
 				84F9FCF31A314BF80062FDEB /* Images.xcassets */,
 				84F9FCF51A314BF80062FDEB /* LaunchScreen.xib */,
@@ -122,6 +129,29 @@
 				84F9FD011A314BF80062FDEB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84F9FD151A314F520062FDEB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84F9FD0F1A314F440062FDEB /* image1.jpg */,
+				84F9FD101A314F440062FDEB /* image2.jpg */,
+				84F9FD111A314F440062FDEB /* image3.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		84F9FD1C1A31A9220062FDEB /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				84F9FCEA1A314BF80062FDEB /* FirstViewController.h */,
+				84F9FCEB1A314BF80062FDEB /* FirstViewController.m */,
+				84F9FCED1A314BF80062FDEB /* SecondViewController.h */,
+				84F9FCEE1A314BF80062FDEB /* SecondViewController.m */,
+				84F9FD0C1A314D240062FDEB /* ThirdViewController.h */,
+				84F9FD0D1A314D240062FDEB /* ThirdViewController.m */,
+			);
+			name = Viewcontrollers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F9FCF21A314BF80062FDEB /* Main.storyboard in Resources */,
+				84F9FD131A314F440062FDEB /* image2.jpg in Resources */,
+				84F9FD121A314F440062FDEB /* image1.jpg in Resources */,
+				84F9FD141A314F440062FDEB /* image3.jpg in Resources */,
 				84F9FCF71A314BF80062FDEB /* LaunchScreen.xib in Resources */,
 				84F9FCF41A314BF80062FDEB /* Images.xcassets in Resources */,
 			);
@@ -225,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F9FCEF1A314BF80062FDEB /* SecondViewController.m in Sources */,
+				84F9FD0E1A314D240062FDEB /* ThirdViewController.m in Sources */,
 				84F9FCE91A314BF80062FDEB /* AppDelegate.m in Sources */,
 				84F9FCEC1A314BF80062FDEB /* FirstViewController.m in Sources */,
 				84F9FCE61A314BF80062FDEB /* main.m in Sources */,
@@ -418,6 +452,7 @@
 				84F9FD081A314BF80062FDEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F9FD091A314BF80062FDEB /* Build configuration list for PBXNativeTarget "TabbedExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +461,7 @@
 				84F9FD0B1A314BF80062FDEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

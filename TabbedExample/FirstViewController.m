@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-
+#import "SecondViewController.h"
 @interface FirstViewController ()
 
 @end
@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.myImageView.image = [UIImage imageNamed:@"image2.jpg"];
     // Do any additional setup after loading the view, typically from a nib.
+    self.tabBarItem.title = @"ONE";
+    self.tabBarItem.badgeValue =@"22";
 }
 
 - (void)didReceiveMemoryWarning {

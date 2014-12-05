@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.myImageView.image = [UIImage imageNamed:@"image3.jpg"];
 }
 
 - (void)didReceiveMemoryWarning {
